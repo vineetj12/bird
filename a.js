@@ -42,7 +42,7 @@ window.onload = function() {
         context.drawImage(birdimage, bird.x, bird.y, bird.width, bird.height);  
     }
     requestAnimationFrame(update);
-    setInterval(pp, 1500);
+    setInterval(pp, 2000);
     document.addEventListener("keydown", movebird);
 }
 
