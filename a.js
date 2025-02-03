@@ -42,7 +42,7 @@ window.onload = function() {
         context.drawImage(birdimage, bird.x, bird.y, bird.width, bird.height);  
     }
     requestAnimationFrame(update);
-    setInterval(pp, 3000);
+    setInterval(pp, 4000);
     document.addEventListener("keydown", movebird);
 }
 
@@ -86,11 +86,11 @@ function pp() {
     };
     pip.push(toppip);
 
-    let bottompipHeight = window.innerHeight - 100 - pipheightRandom - op-50;
+    let bottompipHeight = window.innerHeight - 100 - pipheightRandom - op;
     let bottompip = {
         image: bottompipimage,
         x: pipx,
-        y: pipheightRandom + op,  
+        y: pipheightRandom + op-100,  
         width: pipwidth,
         height: bottompipHeight,
         passed: false
