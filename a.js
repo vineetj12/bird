@@ -100,7 +100,7 @@ function pp() {
 
 function movebird(e) {
     if (e.code == "Space" || e.code == "ArrowUp") {
-        birdspeed = -6;
+        birdspeed = -5;
     }
 }
 
