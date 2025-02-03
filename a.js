@@ -86,7 +86,7 @@ function pp() {
     };
     pip.push(toppip);
 
-    let bottompipHeight = window.innerHeight - 100 - pipheightRandom - op;
+    let bottompipHeight = window.innerHeight - 100 - pipheightRandom - op-20;
     let bottompip = {
         image: bottompipimage,
         x: pipx,
