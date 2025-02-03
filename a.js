@@ -90,7 +90,7 @@ function pp() {
     let bottompip = {
         image: bottompipimage,
         x: pipx,
-        y: pipheightRandom + op-100,  
+        y: pipheightRandom + op,  
         width: pipwidth,
         height: bottompipHeight,
         passed: false
